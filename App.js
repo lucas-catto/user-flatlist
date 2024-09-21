@@ -2,8 +2,8 @@
 import * as React from 'react';
 import { NavigationContainer }        from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import ProgrammersScreen              from 'Components/ProgrammersScreen';
-import ProgrammerDetailScreen         from 'Components/ProgrammerDetailScreen';
+import ProgrammersScreen              from './Components/ProgrammersScreen';
+import ProgrammerDetailScreen         from './Components/ProgrammerDetailScreen';
 
 const Stack = createNativeStackNavigator();
 
